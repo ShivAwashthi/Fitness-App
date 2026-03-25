@@ -18,6 +18,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Table(name="fitness_user")
 public class User {
 
     @Id
